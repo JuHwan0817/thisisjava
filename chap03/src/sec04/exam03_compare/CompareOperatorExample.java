@@ -12,7 +12,7 @@ public class CompareOperatorExample {
 		System.out.println("result2=" + result2);
 		System.out.println("result3=" + result3);
 		
-		char char1 = 'A';
+		char char1 = 'A';	// A´Â 65
 		char char2 = 'B';
 		boolean result4 = (char1 < char2);
 		System.out.println("result4=" + result4);
