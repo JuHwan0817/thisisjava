@@ -19,7 +19,7 @@ public class BitReverseOeratorExample {
 		
 
 	}
-	public static String tobinaryString(int value) {
+	public static String toBinaryString(int value) {
 		String str = Integer.toBinaryString(value);
 		while(str.length() < 32) {
 			str = "0" + str;
