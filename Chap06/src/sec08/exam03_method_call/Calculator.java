@@ -9,7 +9,7 @@ public class Calculator {
 		return result;
 	}
 	
-	double avg(int x, int y) {
+	double avg(int x, int y) {	//var x = 7, y = 10
 		double sum = plus(x, y);
 		double result = sum / 2;
 		return result;
