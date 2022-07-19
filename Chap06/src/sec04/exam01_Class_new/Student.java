@@ -1,5 +1,5 @@
-package sec04.exam01_Class_new;
+package sec04.exam01_class_new;
 
 public class Student {
-
+	
 }

@@ -5,8 +5,8 @@ public class People {
 	public String ssn;
 	
 	/*
-	  public People() {
-	  }
+	public People() {
+	}	
 	*/
 	
 	public People(String name, String ssn) {

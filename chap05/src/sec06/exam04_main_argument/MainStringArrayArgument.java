@@ -3,9 +3,9 @@ package sec06.exam04_main_argument;
 public class MainStringArrayArgument {
 
 	public static void main(String[] args) {
-		if(args.length !=2) {
+		if(args.length != 2) {
 			System.out.println("프로그램의 사용법");
-			System.out.println("Java MainStringArrayArgument num1 num2");
+			System.out.println("java MainStringArrayArgument num1 num2");
 			System.exit(0);
 		}
 		

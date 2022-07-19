@@ -4,12 +4,12 @@ public class Calculator {
 	//필드
 	//생성자
 	//메소드
-	int plus(int x, int y) {
+	int plus(int x, int y) {//var x = 7, y = 10
 		int result = x + y;
 		return result;
 	}
 	
-	double avg(int x, int y) {	//var x = 7, y = 10
+	double avg(int x, int y) {//var x = 7, y = 10
 		double sum = plus(x, y);
 		double result = sum / 2;
 		return result;

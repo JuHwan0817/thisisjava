@@ -2,11 +2,11 @@ package sec03.exam04_break;
 
 public class BreakExample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		while(true) {
-			int num = (int)(Math.random()*6) + 1;
+			int num = (int)(Math.random()*6) + 1;  // 1~6±îÁö
 			System.out.println(num);
-			if(num ==6) {
+			if(num == 6) {
 				break;
 			}
 		}

@@ -22,8 +22,7 @@ public class ArithmeticOperatorExample {
 		System.out.println("result5=" + result5);
 		
 		double result6 = (double) v1 / v2;
-		System.out.println("result6=" + result6);
-
+		System.out.println("result6=" + result6);	
 	}
 
 }

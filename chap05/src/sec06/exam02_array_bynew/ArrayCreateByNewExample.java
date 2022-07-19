@@ -4,8 +4,9 @@ public class ArrayCreateByNewExample {
 
 	public static void main(String[] args) {
 		int[] arr1 = new int[3];
-		for(int i=0; i<3; i++ ) {
+		for(int i=0; i<3; i++) {   // 0~2 (0,1,2)
 			System.out.println("arr1[" + i + "] : " + arr1[i]);
+			//arr1[i] arr1[0]~arr1[2]
 		}
 		arr1[0] = 10;
 		arr1[1] = 20;
@@ -15,8 +16,8 @@ public class ArrayCreateByNewExample {
 		}
 		
 		double[] arr2 = new double[3];
-		for(int i=0; i<3; i++ ) {
-			System.out.println("arr1[" + i + "] : " + arr1[i]);
+		for(int i=0; i<3; i++) {
+			System.out.println("arr2[" + i + "] : " + arr2[i]);
 		}
 		arr2[0] = 0.1;
 		arr2[1] = 0.2;
@@ -29,11 +30,11 @@ public class ArrayCreateByNewExample {
 		for(int i=0; i<3; i++) {
 			System.out.println("arr3[" + i + "] : " + arr3[i]);
 		}
-		arr3[0] = "1일";
-		arr3[1] = "2일";
-		arr3[2] = "3일";
+		arr3[0] = "1월";
+		arr3[1] = "2월";
+		arr3[2] = "3월";
 		for(int i=0; i<3; i++) {
-			System.out.println("arr3[" + i + "] : " + arr3[i]);	
-		}	
+			System.out.println("arr3[" + i + "] : " + arr3[i]);
+		}
 	}
 }

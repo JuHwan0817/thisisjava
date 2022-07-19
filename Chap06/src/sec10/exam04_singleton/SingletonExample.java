@@ -3,10 +3,10 @@ package sec10.exam04_singleton;
 public class SingletonExample {
 
 	public static void main(String[] args) {
-		//String 자바에서 만든 클래스 구래서 앞이 대문자임
 		/*
-		Singleton obj1 = new Singleton(); //컴파일 에러
-		Singleton obj2 = new Singleton(); //컴파일 에러
+		Singleton obj1 = new Singleton();  //컴파일 에러
+		Singleton obj2 = new Singleton();  //컴파일 에러
+		// 싱글톤은 외부에서 객체를 만드는 것을 허용하지 않음
 		*/
 		
 		Singleton obj1 = Singleton.getInstance();

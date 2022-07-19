@@ -14,7 +14,6 @@ public class CastingExample {
 		double doubleValue = 3.14;
 		intValue = (int) doubleValue;
 		System.out.println(intValue);
-
 	}
 
 }

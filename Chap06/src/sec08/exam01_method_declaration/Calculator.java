@@ -19,6 +19,4 @@ public class Calculator {
 	void powerOff() {
 		System.out.println("전원을 끕니다");
 	}
-
 }
-
