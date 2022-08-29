@@ -11,7 +11,7 @@ public class ProductExample {
 		
 		Product<Car, String> product2 = new Product<Car,String> ();
 		product2.setKind(new Car());
-		product2.setModel("스마트Tv");
+		product2.setModel("스마트 Car");
 		Car car = product2.getKind();
 		String carModel = product2.getModel();
 	}
