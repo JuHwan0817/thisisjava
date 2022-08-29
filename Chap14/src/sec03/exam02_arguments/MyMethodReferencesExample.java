@@ -16,6 +16,15 @@ public class MyMethodReferencesExample {
 		
 		fi = (x) -> System.out.println(x*5);
 		fi.method(2);
+		
 	}
 
 }
+
+
+
+
+
+
+
+
